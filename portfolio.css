@@ -1,0 +1,188 @@
+/* Font family
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+body{
+	
+	background-color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	position:relative;
+}
+.first_div{
+	background-image:url("image/portfolio.jpg");
+
+	max-width:100%;
+	max-height:105vh;
+	
+
+	
+	
+}
+.first_bg{
+	background-color:#0f0f0f;
+	opacity:0.7;
+	
+	max-width:100vw;
+	height:105vh;
+	background-attachment:fixed;
+
+
+	
+	
+}
+
+
+.main{
+	
+	
+	color: #ffffff;
+	
+	
+}
+
+.status{
+	
+	margin-top:242px;
+	font-weight:regular;
+	
+}
+.po{
+	padding-top:38px;
+	
+}
+.btn-blue {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+position: relative;
+overflow: hidden;
+margin-left:20px;
+padding-top: 38px;
+font-family: proxima-nova, sans-serif;
+color: #fff;
+font-size: 14px;
+text-align:center;
+border: 0;
+
+}
+.btn-blue:before {
+content: "";
+position: absolute;
+z-index: -1;
+left: 0;
+right: 100%;
+bottom: 0;
+background: #26649f;
+height: 4px;
+-webkit-transition-property: right;
+transition-property: right;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.btn-blue:hover:before, .btn-blue:focus:before, .btn-blue:active:before {
+right: 0;
+}
+.favi ul li{
+	
+	list-style-type:none;
+	display:inline;
+	margin-top:5px;
+
+	
+}
+.favi ul li {
+	
+font-size:15px;
+padding-left:7px;
+margin-left:12px;
+
+
+}
+.Second{
+	max-width:100vw;
+	height:614px;
+	background-color:#ffffff;
+	background-attachment:fixed;
+	overflow:auto;
+	
+}
+.seven{
+	
+	margin-top:123px;
+	padding-left:25px;
+	
+}
+/*.span{
+	
+	border:2px solid #ffffff;
+	color:#ffffff;
+	height:40px!important;
+	width:80px!important;
+	margin-left:30px;
+	
+	text-align:center;
+}*/
+.fix{
+	
+
+	margin-top:20px;
+}
+.button{
+	
+	border:2px solid #ffffff;
+	background-color:none;
+	
+}
+.fa i{
+	
+	margin-right:20px;
+	
+
+	
+	
+}
+.con{
+	
+	margin-top:45px;
+	margin-left:15px;
+	
+}
+.third{
+	background-image:url("image/portfolio2.jpg");
+	height:660px;
+	overflow:auto;
+	
+}
+.third1{
+	
+	height:660px;
+	background-color:#0b6162;
+	opacity:0.9;
+	z-index:1;
+	
+}
+
+.dis{
+	
+	padding-top:10px;
+}
+
+
+/*particle*/
+
+canvas{
+display:block
+}
+#myparticles{
+width:100%;
+height:100%;
+
+}
+
+
+
